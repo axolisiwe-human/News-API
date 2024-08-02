@@ -1,0 +1,40 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters select,
+.filters input {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.news-item h2 {
+  font-size: 1.5em;
+}
+.image{
+  width: 70%;
+}
+.news-item a {
+  color: #007bff;
+  text-decoration: none;
+}
